@@ -19,7 +19,7 @@ A web interface for Synchronet BBS
 	- Copy the contents of the downloaded *mods* directory into your local *mods* directory
 	- Copy the contents of the downloaded *text* directory into your local *text* directory
 	- Rename your current *web* directory to something like *web.old* and then copy the downloaded *web* directory in its place
-- [Download fTelnet](https://github.com/rickparrish/fTelnet/archive/master.zip)
+- [Download fTelnet v1](https://github.com/rickparrish/fTelnet/archive/v1.zip)
 	- Extract the archive
 	- Copy the *release* subdirectory into your new *web/root/* directory
 	- Rename the copied *release* subdirectory to *ftelnet*
