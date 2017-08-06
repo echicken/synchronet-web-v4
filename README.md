@@ -1,3 +1,21 @@
+# synchronet-web-v4-single-page-fork
+
+### Turns synchronet-web-v4 into a single page style app with excellent mobile-tablet responsiveness with a persistent terminal that persists while you browse in html mode.
+
+### This is a fairly light weight (code wise) add on built on top of synchronet web-v4 from echicken.  That code is in this repo for now, but read the instructions that follow for how to install from this package onto an existing synchronet-web-v4 install.
+
+- Copy the contents of this package's /web/root/index.xjs file from in place of your /web/root/index.xjs file.  (Note :If you've modified your index.xjs file you probably want to merge the contents with caution.  Not advised for novices.)
+
+- Copy the file from the repo's /web/root/app.js to your /web/root/ directory.
+
+- Copy the contents from this package's /web/root/css directory to your /web/root/css directory.  If you already have files with the same name, you don't need to overwrite them... These are in this repository because it included the synchronet-web-v4 code too.
+
+- Replace the contents of your /root/ftelnet/keyboard/keyboard-480.min.css with the contents in the file from the package from the css folder named '480-keyboard-replace-cssfile-contents-with-this.css'.  Change the file name to 'keyboard-480.min.css' and move it, or copy what's inside and replace the contents in the target file with some paste action.  Doesn't matter to me, just do it, you want the responsive keyboard for small screen sizes!
+
+Ok, now that you've done those 4 steps you're done.  
+
+### END OF FORK DOCS - synchronet-web-v4 (included package) docs
+
 # synchronet-web-v4
 A web interface for Synchronet BBS
 

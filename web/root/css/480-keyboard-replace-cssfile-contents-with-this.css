@@ -1,0 +1,157 @@
+	/* 
+		Replace the contents of /root/ftelnet/keyboard/keyboard-480.min.css with the contents of this file to make the keyboard responsive.
+	*/
+
+	#fTelnetKeyboard {
+	  background-color:black !important;
+	  box-sizing: border-box !important;
+	  -moz-box-sizing: border-box !important;
+	  -webkit-box-sizing: border-box !important;
+	  border-top:2px solid #27ac90 !important;
+
+	  height: 177px !important;
+	  width: 100vw !important;
+	  margin: auto !important;
+	  position:fixed !important;
+	  bottom:0px !important;
+	  padding-top:15px !important;
+	  padding-bottom:185px !important;
+	  opacity:1 !important;
+	  z-index:100 !important;
+	}
+	#fTelnetKeyboard * {
+	  box-sizing: border-box !important;
+	  -moz-box-sizing: border-box !important;
+	  -webkit-box-sizing: border-box !important;
+	}
+	#fTelnetKeyboard ::selection {
+	  background-color: none !important;
+	  color: inherit !important;
+	}
+	#fTelnetKeyboard ::-moz-selection {
+	  background-color: none !important;
+	  color: inherit !important;
+	}
+	#fTelnetKeyboard .fTelnetKeyboardRow > :first-child {
+	  margin-left: 0  !important;
+	}
+
+	.fTelnetKeyboardRow .fTelnetKeyboardKey {
+	  background-color: #033c6f !important;
+	  border-radius: 2px !important;
+	  cursor: pointer !important;
+	  color: #32dab6 !important;
+	  font: normal 10px sans-serif !important;
+	  float: left !important;
+	  height: 30px !important;
+	  line-height: 13px !important;
+	  margin: 1px 0 0 1px !important;
+	  padding: 2px 0 0 4px !important;
+	  transition: background-color 0.2s ease !important;
+	  width: 6.1vw !important;
+	  font-weight:bolder !important;
+	  text-align: left !important;
+	  opacity:.8 !important;
+	}
+
+	.fTelnetKeyboardRow .fTelnetKeyboardKey.clicked {
+	  background-color: #00ffc6  !important;
+	   font: normal 16px sans-serif !important;
+	   color:black !important;
+	   opacity:1 !important;
+	}
+	#fTelnetKeyboard .fTelnetKeyboardRow .fTelnetKeyboardKey:hover {
+	  background-color: #eee !important;
+	  color: #333 !important;
+	  font-weight: bold !important;
+	  z-index: 1000 !important;
+	}
+	#fTelnetKeyboard .fTelnetKeyboardRow .fTelnetKeyboardKeyArrowDown {
+	  background-position: 4px 3px !important;
+	  background-repeat: no-repeat !important;
+	  width:7vw !important;
+	}
+	#fTelnetKeyboard .fTelnetKeyboardRow .fTelnetKeyboardKeyArrowLeft {
+	  background-position: 4px 3px !important;
+	  background-repeat: no-repeat !important;
+	  width:6.5vw !important;
+	}
+	#fTelnetKeyboard .fTelnetKeyboardRow .fTelnetKeyboardKeyArrowRight {
+	  background-position: 4px 3px !important;
+	  background-repeat: no-repeat !important;
+	}
+	#fTelnetKeyboard .fTelnetKeyboardRow .fTelnetKeyboardKeyArrowUp {
+	  background-position: 4px 3px !important;
+	  background-repeat: no-repeat !important;
+	  width:7vw !important;
+	}
+	#fTelnetKeyboard .fTelnetKeyboardRow .fTelnetKeyboardKeyBackslash {
+	  width: 11.5vw !important;
+	}
+	#fTelnetKeyboard .fTelnetKeyboardRow .fTelnetKeyboardKeyBackspace {
+	  background-position: 4px 15px !important;
+	  background-repeat: no-repeat !important;
+	  width: 16.5vw !important;
+	  font-size:.6em !important;
+	}
+	#fTelnetKeyboard .fTelnetKeyboardRow .fTelnetKeyboardKeyCapsLock {
+	  width: 13.5vw !important;
+	}
+
+	#fTelnetKeyboard .fTelnetKeyboardRow .fTelnetKeyboardKeyCtrl {
+		border:1px solid gray !important;
+		font-size:.55em !important;
+	}
+
+	#fTelnetKeyboard .fTelnetKeyboardRow .fTelnetKeyboardKeyAlt {
+			border:1px solid gray !important;
+			font-size:.6em !important;
+
+	}
+	#fTelnetKeyboard .fTelnetKeyboardRow .fTelnetKeyboardKeyEnter {
+	  background-position: 4px 15px !important;
+	  background-repeat: no-repeat !important;
+	  width: 15.6vw !important;
+	}
+	#fTelnetKeyboard .fTelnetKeyboardRow .fTelnetKeyboardKeyShiftLeft {
+	  background-position: 4px 15px !important;
+	  background-repeat: no-repeat !important;
+	  width: 15vw !important;
+	}
+	#fTelnetKeyboard .fTelnetKeyboardRow .fTelnetKeyboardKeySpacebar {
+	  width: 53.5vw !important;
+	  border:1px solid gray !important;
+	}
+	#fTelnetKeyboard .fTelnetKeyboardRow .fTelnetKeyboardKeyTab {
+	  background-position: 4px 15px !important;
+	  background-repeat: no-repeat !important;
+	  width: 10.8vw !important;
+	}
+	#fTelnetKeyboard .fTelnetKeyboardRowFunction .fTelnetKeyboardKey {
+	  height: 22px !important;
+	  margin-top: 0 !important;
+	  width: 5.4vw !important;
+	  padding:1px !important;
+	}
+	#fTelnetKeyboard .fTelnetKeyboardRowFunction .fTelnetKeyboardKeyEscape {
+	  width:5.5vw !important;
+	}
+	#fTelnetKeyboard .fTelnetKeyboardRowFunction .fTelnetKeyboardKeyHomeEndInsertDelete {
+	  width: 5vw !important;
+	}
+
+	/* Page up */
+	#fTelnetKeyboard .fTelnetKeyboardRow:nth-child(5) .fTelnetKeyboardKey:nth-child(12) {  
+		font-size:.45em !important;
+		width:6.5vw !important;
+	}
+
+	/* Page down */
+	#fTelnetKeyboard .fTelnetKeyboardRow:nth-child(5) .fTelnetKeyboardKey:nth-child(14) {  
+		font-size:.45em !important;
+	}
+	#fTelnetKeyboard .fTelnetKeyboardRowFunction .fTelnetKeyboardKeyHomeEndInsertDelete:last-child {
+		width:9.5vw !important;
+	}
+
+/*# sourceMappingURL=keyboard-480.css.map */
