@@ -1,0 +1,62 @@
+ @media only screen and (min-width:560px){
+    .app-wrapper #fTelnetCrtCanvas {
+    position:relative;
+    width:inherit !important;
+    }
+    audio {
+    	width:200px !important;
+    }
+}
+
+audio {
+	width:36vw;
+	margin-top:10px;
+}
+
+@media only screen and (max-width:767px){
+  #navbar ul {
+	  font-size.9em;
+	  background-color: #9be8be !important; /* Change menu color to neutral at sandwich menu breakpoint */
+	}
+}
+
+ul li.home-xjs { /* Don't show link to home page, it should always be rendered in SPA mode */
+	display:none;
+}
+
+.fTelnetFocusWarning {
+  display:none !important;
+}
+
+.fTelnetScrollback {
+  display:none !important;
+}
+ @media only screen and (max-width:590px){
+   .bbs-page-content {
+      padding:0;
+    }
+}
+
+.navbar-brand {
+	margin-left: 10px;
+}
+
+
+.navbar-toggle {
+	margin-right: 30px;
+}
+
+.app-wrapper {
+	#fTelnetKeyboard {
+		width:100vw;
+	}
+}
+
+#main-content {
+	margin-top:-30px;
+	padding-top:30px;
+}
+
+#navbar ul {
+	font-size.9em;
+}

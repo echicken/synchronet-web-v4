@@ -1,0 +1,138 @@
+#fTelnetCrtCanvas {
+    display: block !important;
+    margin: auto !important;
+    border:2px solid #27ac90 !important;
+}
+
+ @media only screen and (max-width:559px){
+    #fTelnetCrtCanvas {
+    width:100vw !important;
+    position:fixed !important;
+    bottom:195px !important;
+    }
+}
+
+
+
+ @media only screen and (min-height:613px){
+    #fTelnetCrtCanvas {
+        height:55vh !important;
+        width:100vw !important;
+
+
+}
+
+  @media only screen and (max-height:613px) {
+    #fTelnetCrtCanvas {
+        height:49vh !important;
+        width:100vw !important; 
+    }
+}
+
+
+.fTelnetKeyboardRowFunction .fTelnetKeyboardKeyboardKey:nth-child(14), .fTelnetKeyboardKeyboardKey:nth-child(15), .fTelnetKeyboardKeyboardKey:nth-child(16), .fTelnetKeyboardKeyboardKey:nth-child(17){
+    display:none !important;
+}
+.fTelnetContainer {
+    box-sizing: content-box !important;
+    margin: auto !important;
+}
+
+    .fTelnetContainer .fTelnetButtons,
+    .fTelnetContainer .fTelnetScrollback,
+    .fTelnetContainer .fTelnetFocusWarning,
+    .fTelnetContainer .fTelnetClientContainer,
+    .fTelnetContainer .fTelnetStatusBar {
+        box-sizing: content-box !important;
+    }
+
+    .fTelnetContainer canvas {
+        display: block !important;
+        margin: auto !important;
+    }
+
+.fTelnetClientContainer {
+    position: relative !important;
+    margin: auto !important;
+}
+
+.fTelnetConnectButton {
+    background-color: white !important;
+    border: 1px solid black !important;
+    border-radius: 5px !important;
+    color: black !important;
+    display: inline-block !important;
+    font: 14px Arial, Helvetica, sans-serif !important;
+    margin-right: 10px !important;
+    padding: 8px 12px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1) !important;
+}
+
+.fTelnetFocusWarning {
+    background-color: red !important;
+    color: white !important;
+    font: 14px Arial, Helvetica, sans-serif !important;
+    margin: auto !important;
+    padding: 5px !important;
+    text-align: center !important;
+}
+
+.fTelnetMenuButton {
+    background-color: white !important;
+    border: 1px solid #666 !important;
+    border-radius: 5px !important;
+    color: black !important;
+    display: inline-block !important;
+    margin-right: 10px !important;
+    padding: 8px 12px !important;
+    text-decoration: none !important;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1) !important;
+}
+
+.fTelnetMenuButtons {
+    background-color: white !important;
+    border: 1px solid #666 !important;
+    color: black !important;
+    margin-right: 10px !important;
+    padding: 8px 12px !important;
+    position: absolute !important;
+    text-decoration: none !important;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1) !important;
+}
+
+    .fTelnetMenuButtons a {
+        border: 1px solid black !important;
+        border-radius: 5px !important;
+        color: black !important;
+        display: block !important;
+        font: 14px Arial, Helvetica, sans-serif !important;
+        padding: 8px 12px !important;
+        text-align: center !important;
+        text-decoration: none !important;
+    }
+
+.fTelnetScrollback {
+    background-color: green !important;
+    color: white !important;
+    font: 14px Arial, Helvetica, sans-serif !important;
+    margin: auto !important;
+    padding: 5px !important;
+    text-align: center !important;
+}
+
+    .fTelnetScrollback a {
+        color: white !important;
+        padding: 0 5px !important;
+        text-decoration: none !important;
+    }
+
+.fTelnetStatusBar {
+    background-color: blue !important;
+    color: white !important;
+    font: 14px Arial, Helvetica, sans-serif !important;
+    margin: auto !important;
+    padding: 5px !important;
+    text-align: left !important;
+}
